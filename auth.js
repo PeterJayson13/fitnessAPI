@@ -1,5 +1,5 @@
 const jwt = require("jsonwebtoken");
-const JWT_SECRET_KEY="FitnessApp"
+const JWT_SECRET_KEY="FitnessAPI"
 require('dotenv').config();
 
 
