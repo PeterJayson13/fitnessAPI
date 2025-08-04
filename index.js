@@ -11,7 +11,7 @@ require('dotenv').config();
 const app = express();
 
 const corsOptions = {
-	origin:['https://fitnessapp-client-bongabong.vercel.app/'],
+	origin:['https://fitnessapp-client-bongabong.vercel.app'],
 	credentials: true, 
 	optionsSuccessStatus: 200
 };
